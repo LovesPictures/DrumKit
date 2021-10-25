@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkblue);
+  background-image: linear-gradient(
+      290deg,
+      rgba(58, 58, 158, 0.5),
+      rgba(136, 136, 206, 0.5)
+    ),
+    url(./background.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 10px;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: 0.4rem solid rgb(236, 9, 187);
+  border-radius: 5rem;
+  margin: 1rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.09s ease;
+  width: 7rem;
+  text-align: center;
+  color: rgb(7, 252, 109);
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #f50519;
+  box-shadow: 0 0 1rem #00ff55;
+}
+
+kbd {
+  display: block;
+  font-size: 3rem;
+}
+
+.sound {
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  color: #03fa10;
+}
