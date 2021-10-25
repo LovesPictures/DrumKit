@@ -19,7 +19,7 @@ body::before {
       rgba(58, 58, 158, 0.2),
       rgba(136, 136, 206, 0.2)
     ),
-    url(./background.jpg);
+    url(/background.jpg);
 
   background-size: cover;
   background-repeat: no-repeat;
