@@ -20,11 +20,15 @@ body::before {
       rgba(136, 136, 206, 0.3)
     ),  */
 
-  background: url('./background.jpg') bottom center;
+/*   background: url('./background.jpg') bottom center; */
+  background-image: url('../background.jpg') bottom center;
+  
+/*     background: url('./background.jpg') bottom center;
+  background-size: cover; */
 
-  background-size: cover;
+/*   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
   font-size: 10px;
 }
 
