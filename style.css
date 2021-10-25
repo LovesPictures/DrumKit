@@ -21,7 +21,7 @@ body::before {
     ),
     
     //image not loading 
-    url(background.jpg);
+    url(/background.jpg);
 
   background-size: cover;
   background-repeat: no-repeat;
