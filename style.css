@@ -14,17 +14,18 @@ body::before {
   width: 100%;
   z-index: -1;
 
-/*   background-image: linear-gradient(
+  background: linear-gradient(
       290deg,
       rgba(58, 58, 158, 0.3),
       rgba(136, 136, 206, 0.3)
-    ),  */
+    ),  
 
-/*   background: url('./background.jpg') bottom center; */
-  background-image: url('../background.jpg') bottom center;
   
-/*     background: url('./background.jpg') bottom center;
+  background: url('./background.jpg') bottom center;
   background-size: cover; */
+  
+  
+  
 
 /*   background-size: cover;
   background-repeat: no-repeat;
