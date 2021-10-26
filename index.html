@@ -88,13 +88,11 @@ using https://keycode.info/ data
     audio.play(); // calling the audio element 
   }
 
-
   const keys = Array.from(document.querySelectorAll('.key')); // selecting all the keys + audio that is matched on the page
   keys.forEach(key => key.addEventListener('transitionend', removeTransition)); // remoe ir 
   //listen to a Window event when someone presses the key, play the sound
   window.addEventListener('keydown', playSound);
-
-       
+    
    
 </script>
 </body>
