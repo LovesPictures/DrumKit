@@ -27,6 +27,14 @@ The HTML, CSS, and sound clips were provided as starter code.
 - We use the `data-key` attributes to match the correct audio clip with the div element,
   and we can use the `playing` class to add that temporary highlight/border.
 
+
+## Useful links
+ 
+* [Add Sound to your JavaScript game with Howler JS (not VanillaJS!)](https://www.youtube.com/watch?v=hn7MhPt24L4&ab_channel=DrewConley)
+* [Sound board with vanilla JavaScript](https://www.youtube.com/watch?v=E-v4SSCG6i4&ab_channel=WebDev)
+
+
+
 <!-- **Steps:**
 
  1. Add an _event listener_ to the entire window object that is listening for a 
