@@ -27,9 +27,9 @@ The HTML, CSS, and sound clips were provided as starter code.
 - We use the `data-key` attributes to match the correct audio clip with the div element,
   and we can use the `playing` class to add that temporary highlight/border.
 
-**Steps:**
+<!-- **Steps:**
 
-<!-- 1. Add an _event listener_ to the entire window object that is listening for a 
+ 1. Add an _event listener_ to the entire window object that is listening for a 
   `keydown` event; the function that we will provide as the _callback_ will be
   defined next. For now, decide on what the function name will be and provide
   that name as the second argument for our event listener.
