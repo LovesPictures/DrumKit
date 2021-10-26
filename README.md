@@ -1,7 +1,6 @@
 
 ##
 # Project 1: JavaScript Drum Kit
-![image](https://user-images.githubusercontent.com/25634451/138946027-27dcf11c-f382-4f35-89ae-af3eee57d7cd.png)
 
 Judith Ricketts, Artist, Lecturer and Software engineer - [Contact](https://lovespictures.com/)  
 Commit Date: 25th October 2021
