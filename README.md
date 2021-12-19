@@ -2,7 +2,7 @@
 ##
 # Project 1: JavaScript Drum Kit
 
-Judith Ricketts, Artist, Lecturer and Software engineer - [Contact](https://lovespictures.com/)  
+Judith Ricketts, Artist, Lecturer and Software Engineer - [Contact](https://lovespictures.com/)  
 Commit Date: 25th October 2021
 
 An HTML page displays a collection of `div` elements, each containing a letter
